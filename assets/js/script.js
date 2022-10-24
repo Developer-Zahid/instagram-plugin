@@ -11,7 +11,7 @@ let instagramContainer = document.querySelector(".instagram-container");
 window.addEventListener("DOMContentLoaded", function(){
     setTimeout(function(){
         imagesArr.map((item)=>{
-            instagramContainer.innerHTML += `<a href="${item}" target="_blank" style="background-image: url(${item});" class="instagram__imgage"></a>`
+            instagramContainer.innerHTML += `<a href="${item}" target="_blank" style="background-image: url(${item});" class="instagram__imgage" crossorigin="anonymous"></a>`
         })
     },1000)
 })
