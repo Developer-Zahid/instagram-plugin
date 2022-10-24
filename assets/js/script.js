@@ -13,7 +13,5 @@ window.addEventListener("DOMContentLoaded", function(){
         imagesArr.map((item)=>{
             instagramContainer.innerHTML += `<img src="${item}" alt="instagram image" class="instagram__imgage" />`
         })
-        console.log(document.querySelector("img").crossorigin);
     },1000)
-
 })
